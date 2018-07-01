@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "name": "Ally",
+    "description": "A nonplayer character of the DM's choice becomes enamored with you. The identity of the new friend isn't known until the NPC or someone else reveals it. The NPC will do everything in their power to aid you as though you were a life-long friend"
+  },
+  {
+    "id": 2,
+    "name": "Arcane",
+    "description": "You lose all forms of wealth, however you are compensated by the gods with a magical item that appears at your feet."
+  },
+  {
+    "id": 3,
+    "name": "Bull",
+    "description": "You feel great strength coursing through you, but at the expense of your mind. Roll 1d4 and add that much to your strength score. Subtract the same amount from your Intelligence score."
+  },
+  {
+    "id": 4,
+    "name": "Cat",
+    "description": "You feel yourself growing nimbler and more agile, but at the cost of your wisdom. Roll 1d4 and add that much to your Dexterity score. Subtract the same amount from your Wisdom score."
+  },
+  {
+    "id": 5,
+    "name": "Comet",
+    "description": "If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain enough experience points to gain one level. Otherwise, this card has no effect."
+  },
+  {
+    "id": 6,
+    "name": "Doppelganger",
+    "description": "Somewhere in the world, an exact duplicate of you appears. It has the same appearance, equipment, and knowledge as you. The only difference is that its alignment is opposite yours. Lawful becomes chaotic, and good becomes evil, or vice-versa."
+  },
+  {
+    "id": 7,
+    "name": "The Fates",
+    "description": "Reality's fabric unravels and spins anew, allowing you to avoid or erase one event from your past as if it never happened. You must use the card's magic as soon as you draw the card."
+  },
+  {
+    "id": 8,
+    "name": "Fool",
+    "description": "Lose 10,000 XP, discard this card, and draw from the deck again, counting both draws as one of your declared draws. If losing that much XP would cause you to lose a level, you instead lose an smount that leaves you with just enough XP to keep your level."
+  },
+  {
+    "id": 9,
+    "name": "Gambler",
+    "description": "You add 2 to your number of declared draws. You must draw them as if they were in your initial number of declared draws."
+  },
+  {
+    "id": 10,
+    "name": "Golem",
+    "description": "You gain a tough exterior and more hardy body, but at the cost of your charisma. Roll 1d4 and add that much to your Constitution score. Subtract the same amount from your Charisma score."
+  },
+  {
+    "id": 11,
+    "name": "Guillotine",
+    "description": "This card signals peril. You magically lose one limb or appendage, the wound healing instantly except for the limb. Roll 1d10. The number rolled determines which limb is lost. See the lost limb table for additional details. Lost Limb Table: d10 10: One Ear 9: One Finger 8-7: Left Foot 6-5: Right Foot 4-3: Off Hand 2: Main Hand 1: One eye"
+  },
+  {
+    "id": 12,
+    "name": "Gem",
+    "description": "Twenty-five pieces of jewelry worth 2,000 gp each or fifty gems worth 1,000 gp each appear at your feet."
+  },
+  {
+    "id": 13,
+    "name": "Jester",
+    "description": "You gain 10,000 XP, or you can draw two additional cards beyond your declared draws."
+  },
+  {
+    "id": 14,
+    "name": "Key",
+    "description": "A rare or rarer magic weapon with which you are proficient appears in your hands. The DM chooses the weapon."
+  },
+  {
+    "id": 15,
+    "name": "Lightfoot",
+    "description": "You feel your steps become lighter, making moving easier. You permanently gain 10 movement speed."
+  },
+  {
+    "id": 16,
+    "name": "Sage",
+    "description": "You feel a transformation in your mind, bringing with it the wisdom of an old wise one. However, you also feel ourself becoming less agile with your newfound wisdom. Roll 1d4. Add the number to your Wisdom score, and subtract the same amount from your Dexterity score."
+  },
+  {
+    "id": 17,
+    "name": "Scholar",
+    "description": "Your mind undergoes spontaneous growth, and you feel yourself becoming more intelligent, but at the cost of your physical strength. Roll 1d4. Add the number to your Intelligence score, and subtract te same amount from your Strength score."
+  },
+  {
+    "id": 18,
+    "name": "Skull",
+    "description": "You summon an avatar of death-a ghostly humanoid Skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own avatar of death. A creature slain by an avatar of death can't be restored to life."
+  },
+  {
+    "id": 19,
+    "name": "Star",
+    "description": "Increase one of your Ability Scores by 2. The score can exceed 20 but can't excede 24."
+  },
+  {
+    "id": 20,
+    "name": "Throne",
+    "description": "You gain proficiency in the Persuasion skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of Monsters, which you must clear out before you can claim the keep as. yours."
+  },
+  {
+    "id": 21,
+    "name": "Tongue",
+    "description": "You feel a change in your mind, feeling yourself able to speak and act more persuasively. However, this comes at the expense of your physical endurance. Roll 1d4. Add the number to your Charisma score, and subtract the same amount from your Constitution score."
+  },
+  {
+    "id": 22,
+    "name": "Tribe",
+    "description": "When you draw this card, you instantly die and are brought back to life as though Reincarnation had been cast on you."
+  },
+  {
+    "id": 23,
+    "name": "Vizier",
+    "description": "At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with Wisdom on how to apply it."
+  },
+  {
+    "id": 24,
+    "name": "The Sun",
+    "description": "It's night. And will be night for a very long time..."
+  },
+  {
+    "id": 25,
+    "name": "The Moon",
+    "description": "It's day. And will be day for a very long time..."
+  },
+  {
+    "id": 26,
+    "name": "?",
+    "description": "For the next 24 hours, you can only answer questions with other questions."
+  },
+  {
+    "id": 27,
+    "name": "Cape Master",
+    "description": "You get a cape that is always flowing as if there is a wind."
+  },
+  {
+    "id": 28,
+    "name": "Serious Business",
+    "description": "You don't understand sarcasm for a week."
+  },
+  {
+    "id": 29,
+    "name": "Donjon",
+    "description": " You come into possession of a map of a forgotton tomb or some other dungeon like area. You know where the dungeon is located and know its layout. (The dungeon may have been modified by weather or new inhabitants since the map was made. Making it less effective)"
+  },
+  {
+    "id": 30,
+    "name": "Eurayle",
+    "description": "You are forced to take on a minor curse, but gain a minor blessing (Dms discretion as to what these are). The effect can be removed by remove curse, but it removes the blessing as well."
+  },
+  {
+    "id": 31,
+    "name": "Flames",
+    "description": "You have a haunting realization that someone you offended was a devil in disguise. (Dm gets to pick who, the player gets to pick how)."
+  },
+  {
+    "id": 32,
+    "name": "Ruin",
+    "description": "You will cause someone to lose everything they ever held dear. Everyone shall know it is your fault and the person shall dedicate their life to revenge. Only a wish used to restore everything they lost, plus interest will be able to dissuade them."
+  },
+  {
+    "id": 33,
+    "name": "Shine",
+    "description": "You have been blessed with starlight. You now glow slightly, emitting 30ft of dim light. You have disadvantage on all stealth saving throws. This effect persists through invisibility. You gain proficiency in saving throws connected to your lowest stat that you aren't proficient in."
+  },
+  {
+    "id": 34,
+    "name": "Trickster",
+    "description": "Draw two more cards. You may, if you wish, bestow one on someone in sight."
+  },
+  {
+    "id": 35,
+    "name": "Rogue",
+    "description": "A criminal organization targets you for your wealth, influence, or because you pissed them off in the past. At first they send threatening notes, but it quickly escalates into violence."
+  },
+  {
+    "id": 36,
+    "name": "Hero",
+    "description": "In the future, you will be granted a noble title by royalty as proof of your deeds- or are elected to a powerful office, or become a folk hero. Wherever you go, you will be accepted and supported, sometimes clandestinely, other times openly."
+  },
+  {
+    "id": 37,
+    "name": "Death by Bacon",
+    "description": "Mmmm. It is so delicious. How can this be bad for you? You gain 2d6 temporary hit points, and you gain advantage on saving throws against disease and poison until you finish a long rest. You also have disadvantage on the next Wisdom saving throw you make."
+  },
+  {
+    "id": 38,
+    "name": "Mini Death",
+    "description": "All mosquitoes, houseflies, ants, small spiders, earthworms, minnows, butterflies, and creatures of similar size within 10 ft. of you die."
+  },
+  {
+    "id": 39,
+    "name": "Mini Me",
+    "description": "A miniature replica of yourself appears. It adores you. It's salty AF."
+  },
+  {
+    "id": 40,
+    "name": "The Magician",
+    "description": "The card bursts into sparkles and settles into a beaver-fur black top hat, a pair of white gloves, a docile rabbit, and a two-headed coin."
+  },
+  {
+    "id": 41,
+    "name": "Death",
+    "description": "The card wilts into a gleaming war scythe."
+  }
+]

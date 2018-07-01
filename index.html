@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="scripts/load_deck.js"></script>
+
+    <title>Deck of Many Things</title>
+    <style type="text/css">
+    .card_description{
+        height: 350px;
+        overflow: auto;
+        font-size: 1em;
+    }
+    .closing_x{
+        color: red;
+        cursor: pointer; 
+        position: absolute;
+        top: 5px; 
+        right: 6px; 
+    }
+</style>
+</head>
+<body>
+    <div class="container text-center">
+        <!-- <h3 style="text-align: center;">Roll For a Card</h3> -->
+        <br>
+        <div class="container row">
+            <div class="col-sm-6">
+                <button class="btn btn-primary btn-block" id="roll">Roll</button>
+                <br>
+                <div class="container cards" style="display: none;"></div>
+                <br>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group" style="text-align: left;">
+                    <input type="text" min="1" id="number" class="form-control" placeholder="Search by number">
+                </div>
+                <div class="row">
+                    <div class="container cards_table"></div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                      <button class="btn btn-primary float-left" id="prev">Previous</button>  
+                      <button class="btn btn-primary float-right" id="next">Next</button>  
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br><br><br><br>
+      <div class="container">
+        <button class="btn btn-primary btn-block all_cards" id="show" >Show all cards</button>
+        <div class="form-group" style="text-align: left;">
+            <input type="text" id="name" class="form-control" placeholder="Search by name">
+        </div>
+        <br>
+        <div class="container show_all_cards" style="display: none"></div>
+    </div>
+    <br><br><br><br>
+</div>
+</body>
+</html>
