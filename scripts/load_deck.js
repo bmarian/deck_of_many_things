@@ -6,12 +6,12 @@ $(function () {
     get_card_by_id(1);
 
     $("#number").on("keyup", function(event){
-        let value = parseInt($("#number").val(), 10);
+        let nr_value = parseInt($("#number").val(), 10);
         let min = parseInt($("#number").attr("min"), 10);
         let max = parseInt($("#number").attr("max"), 10);
 
-        if(value >= min && value <= max){
-            get_card_by_id(value);
+        if(nr_value >= min && nr_value <= max){
+            get_card_by_id(nr_value);
         }
     });
 
@@ -27,19 +27,19 @@ $(function () {
 
     $("#next").on("click", function(){
         let max = parseInt($("#number").attr("max"), 10);
-        let value = parseInt($(".cards_table").attr("id"), 10);
+        let nr_value = parseInt($(".cards_table").attr("id"), 10);
 
-        if(value < max){
-            get_card_by_id(value + 1);
+        if(nr_value < max){
+            get_card_by_id(nr_value + 1);
         }
     });
 
     $("#prev").on("click", function(){
         let min = parseInt($("#number").attr("min"), 10);
-        let value = parseInt($(".cards_table").attr("id"), 10);
+        let nr_value = parseInt($(".cards_table").attr("id"), 10);
 
-        if(value > min){
-            get_card_by_id(value - 1);
+        if(nr_value > min){
+            get_card_by_id(nr_value - 1);
         }
     });
 
@@ -100,6 +100,7 @@ function set_max_value(){
         mimeType: "application/json",
         success: function (result) {
             $("#number").attr("max", result.length);
+            $(".total_cards").html("Total: " + result.length);
         },
         error: function (message) {
             console.log("Ajax call error:");
@@ -163,8 +164,8 @@ function show_all_cards(){
             }
             all_cards += "</div>"
             $(".show_all_cards").html(all_cards);
+            $(".total_cards").html("Total: " + result.length);
             $(".show_all_cards").slideDown("slow");
-
         },
         error: function (message) {
             console.log("Ajax call error:");
@@ -186,6 +187,7 @@ function set_by_name(name){
                     result.push(response[i]);
                 }
             }
+            $(".total_cards").html("Total: " + result.length);
             let all_cards = "<div class=\"row\">";
             let count = 1;
             for(let i in result){
